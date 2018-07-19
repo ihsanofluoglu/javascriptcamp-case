@@ -4,7 +4,6 @@ function Search() {
     var title = document.getElementById('searchBar').value;
     $.get('http://www.omdbapi.com/?apikey=7ed1e845&s=' + title, function (data) {
         if (data.Response == "True") {
-            console.log(data);
             $('#data').html("");
             $.each(data, function (index, element) {
                 for (var i = 0; i < data.Search.length; i++) {
@@ -31,7 +30,6 @@ function Search() {
             });
         }
         else {
-            console.log(data);
             $('#data').html("");
             $('#data').append($('<h4 style="margin: 0 auto;">' + data.Error + '</h4>'))
         }
