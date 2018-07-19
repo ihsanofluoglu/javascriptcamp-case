@@ -1,0 +1,25 @@
+
+
+#search-form label,
+#search-form input,
+#search-form button {
+    float: left;
+}
+
+#search-form {
+    margin: 0 auto;
+    display: block;
+}
+
+#search-form label {
+    line-height: 38px;
+}
+
+#search-form .form-group input {
+    width: 50%;
+    margin-left: 10px;
+}
+
+#search-form .btn {
+    margin-left: 10px;
+}
