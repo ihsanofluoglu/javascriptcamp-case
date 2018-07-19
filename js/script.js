@@ -22,9 +22,7 @@ function Search() {
                         '</a>' +
                         '</div>' +
                         '</div>' +
-                        '</div > ', {
-                            text: data.Title
-                        }));
+                        '</div > '));
                 }
             });
         }
