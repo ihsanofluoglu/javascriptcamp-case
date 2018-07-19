@@ -1,5 +1,4 @@
 
-
 function Search() {
     var title = document.getElementById('searchBar').value;
     $.get('http://www.omdbapi.com/?apikey=7ed1e845&s=' + title, function (data) {
